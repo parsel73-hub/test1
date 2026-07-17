@@ -273,7 +273,7 @@ class BallLogic:
     def clear(self) -> None:
         self.balls.clear()
         self.inventory.clear()
-        self.mouse_ball = Nonefrom __future__ import annotations
+        self.mouse_ball = None
 
 from dataclasses import dataclass, field
 from typing import List, Optional, Tuple
